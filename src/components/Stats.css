@@ -1,0 +1,31 @@
+.stats {
+  padding: 60px 30px;
+  background: #2563eb;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.stat-card {
+  background: white;
+  padding: 25px;
+  width: 220px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,.1);
+}
+
+.stat-card h2 {
+  font-size: 36px;
+  color: #2563eb;
+  margin-bottom: 10px;
+}
+
+.stat-card p {
+  font-size: 18px;
+  color: #555;
+}
